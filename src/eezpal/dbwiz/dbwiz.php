@@ -10,9 +10,9 @@ try {
 
 /**
  * [runSQL description]
- * @param  [type] $sql   [SQL query input]
- * @param  [type] $param [Array param input]
- * @return [type]        [array]
+ * @param  [PDO connection] $sql   [SQL query input]
+ * @param  [Array] $param [Array param input]
+ * @return [Array]        Returns the array with SQL reply
  */
 function runSQL($sql, $param)
 {
